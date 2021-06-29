@@ -39,13 +39,13 @@ header {
   margin-left: -470px;
 }
 .reasons {
-  margin-top: -640px;
+
   margin-left: 400px;
   display: inline;
 }
 
 .regiter {
-  margin-top: -70px;
+  margin-top: 100px;
   text-align: center;
 }
 
@@ -53,11 +53,16 @@ header {
   margin-top: -38px;
 }
 
+#video-banner-two{
+  margin-top: 250px;
+}
+
+
 /* end banner two */
 
 /* banner three */
 #title-banner-three {
-  margin-top: -1200px;
+
 }
 #title-banner-three .title {
   text-align: center;
@@ -201,14 +206,21 @@ header {
 
 /* banner four */
 #banner-four .title{
-  margin-top: -900px;
   text-align: center;
 }
 
-#banner-four .title h3{
-  margin-top: -70px;
-  border:orange; border-width:5px; border-style:solid;
+ #banner-four .title h3{
+  border-style: solid;
+  border-color: white;
+  width: 50%;
+  height: 60px;
+  margin-left: 25%;
 }
+
+/* #banner-four .title h5{
+  margin-top: 50px;
+
+} */
 #banner-four .title-video{
   width: 320px;
   text-align: center;
@@ -227,7 +239,7 @@ header {
 }
 
 #banner-four .regiter h5{
-  margin-top: -37px; 
+  margin-top: -35px;
   font-weight: bold;
 }
 
@@ -246,14 +258,21 @@ header {
   font-weight: bold;
 }
 
-#banner-six .title{
-  margin-top: -700px;
-  text-align: center;
-}
 
 /* end banner five */
 
 /* banner six */
+
+#banner-six{
+  height: 720px;
+}
+
+#banner-six .title{
+  border-style: solid;
+  width: 27%;
+  border-color: red;
+  margin-left: 35%;
+}
 #owl-carousel .item img{
   height: 300px;
   width: 300px;
@@ -288,6 +307,10 @@ header {
 }
 
 #banner-seven .title{
+  border-style: solid;
+  border-color: red;
+  width: 25%;
+  margin-left: 37%;
   text-align: center;
 }
 
@@ -310,15 +333,13 @@ header {
 }
 /* end banner seven */
 
-/* banner eight */
+/* from regiter*/
 #form-regiter{
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 #form-regiter .title{
-  margin-left: 750px;
   text-align: center;
-  margin-top: 100px;
 }
 
 #form-regiter .form-regiter{
@@ -349,9 +370,9 @@ header {
 }
 
 .bd{
-  margin-top: 100px;
   border-style: solid;
   border-color: white;
-  width: 20%;
+  width: 15%;
+  margin-left: 42%;
 }
-/* end eight */
+/* end form regiter */
